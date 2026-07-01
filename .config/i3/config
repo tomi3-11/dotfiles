@@ -187,8 +187,11 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command bumblebee-status \
-	-m nic disk:root cpu memory battery date time \
-	-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
+	-m arch-update nic disk:root cpu memory battery date time \
+	-p nic.format="NIC: {state} {strength}" \
+        root.path=/ \
+        time.format="%H:%M CW %V" \
+        date.format="%a, %b %d %Y" \
 	-t greyish-powerline
 }
 

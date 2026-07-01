@@ -3,6 +3,9 @@ set number
 set scrolloff=8
 set guicursor=a:block
 
+" Color column
+set colorcolumn=80
+
 " indentation
 set autoindent
 set tabstop=4
