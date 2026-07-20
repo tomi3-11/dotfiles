@@ -10,7 +10,7 @@ Arch Linux dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/).
  
 ```bash
 sudo pacman -S stow git
-git clone --recurse-submodules git@github.com:yourusername/dotfiles.git ~/dotfiles
+git clone --recurse-submodules git@github.com:tomi3-11/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
 ```
