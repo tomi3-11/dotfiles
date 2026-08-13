@@ -208,6 +208,9 @@ bindsym F5 exec brightnessctl set 10%-
 # screen lock manually
 bindsym $mod+Shift+s exec --no-startup-id ~/.config/i3/scripts/lock.sh
 
+# select screenshot
+bindsym $mod+shift+p exec maim -s ~/Pictures/screenshot-$(date +%Y%m%d-%H%M%S).png
+
 client.focused          #7aa2f7 #1a1b26 #c0caf5 #7dcfff #1a1b26
 client.focused_inactive #565f89 #16161e #a9b1d6 #565f89 #16161e
 client.unfocused        #3b4261 #0f1117 #787c99 #3b4261 #0f1117
