@@ -217,3 +217,6 @@ client.unfocused        #3b4261 #0f1117 #787c99 #3b4261 #0f1117
 client.urgent           #f7768e #f7768e #1a1b26 #f7768e #f7768e
 
 client.background       #1a1b26
+
+# Start dunst with i3 startup
+exec --no-startup-id dunst
